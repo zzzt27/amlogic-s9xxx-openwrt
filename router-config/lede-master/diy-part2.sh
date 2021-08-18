@@ -42,6 +42,7 @@ svn co https://github.com/hubutui/p7zip-lede/trunk package/p7zip
 
 # Add third-party software packages (The entire repository)
 # git clone https://github.com/libremesh/lime-packages.git package/lime-packages
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
 # Add third-party software packages (Specify the package)
 # svn co https://github.com/libremesh/lime-packages/trunk/packages/{shared-state-pirania,pirania-app,pirania} package/lime-packages/packages
 # Add to compile options (Add related dependencies according to the requirements of the third-party software package Makefile)

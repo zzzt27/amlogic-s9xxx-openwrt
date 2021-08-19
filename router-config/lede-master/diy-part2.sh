@@ -8,6 +8,9 @@
 
 # ------------------------------- Main source started -------------------------------
 #
+
+rm -rf feeds/packages/libs/{libgd,libgd-full}
+
 # Modify default theme（FROM uci-theme-bootstrap CHANGE TO luci-theme-material）
 sed -i 's/luci-theme-bootstrap/luci-theme-material/g' ./feeds/luci/collections/luci/Makefile
 
